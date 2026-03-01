@@ -1,3 +1,24 @@
+# IDE & OS
 .idea/
+.DS_Store
+Thumbs.db
+
+# Python
 .venv/
 __pycache__/
+*.pyc
+
+# Security (AutoTrading)
+.env
+kis_token.json
+
+# Logs & Data
+*.log
+logs/
+data/
+!data/README.md
+
+# Testing
+.pytest_cache/
+.coverage
+work-guide/
